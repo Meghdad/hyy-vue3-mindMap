@@ -1,66 +1,66 @@
-# 一个基于Vue3.2 + ElementPlus的Web思维导图
+# A web mind map based on Vue3.2 + ElementPlus
 
-## 项目预览
-### 项目地址：[思维导图](https://huangyuanyin.gitee.io/hyy-vue3-mindmap/#/)
+## Project Preview
+### Project Address：[Mind Mapping](https://huangyuanyin.gitee.io/hyy-vue3-mindmap/#/)
 ![image](https://user-images.githubusercontent.com/42410679/219315595-5b948055-ebe9-45c0-a2ab-e640d4a09feb.png)
 ![image](https://user-images.githubusercontent.com/42410679/208390826-60ded4ce-ad48-46da-ab84-c66c3ef29885.png)
 ![image](https://user-images.githubusercontent.com/42410679/208390888-401d8c91-f76b-4c3b-a095-24daccae8404.png)
 
 
 
-## 特性
+## Characteristic
 
-- [x] 插件化架构，除核心功能外，其他功能作为插件提供，按需使用，减小整体体积
-- [x] 支持逻辑结构图、思维导图、组织结构图、目录组织图四种结构
-- [x] 内置多种主题，允许高度自定义样式
-- [x] 支持快捷键
-- [x] 节点内容支持图片、图标、超链接、备注、标签、概要
-- [x] 支持前进后退
-- [x] 支持拖动、缩放
-- [x] 支持右键按住多选
-- [x] 支持节点自由拖拽、拖拽调整
-- [x] 支持多种节点形状
-- [x] 支持导出为`json`、`png`、`svg`、`pdf`，支持从`json`、`xmind`导入
-- [x] 支持小地图
-- [x] 支持小地图、支持水印
+- [x] Plug-in architecture, in addition to the core functions, other functions are provided as plug-ins, which can be used on demand and reduce the overall size
+- [x] Support logical structure chart, mind map, organization chart, directory organization chart four structures
+- [x] Multiple built-in themes allow highly customizable styles
+- [x] Support shortcut keys
+- [x] Node content supports pictures, icons, hyperlinks, notes, labels, and summaries
+- [x] Support forward and backward
+- [x] Support dragging and zooming
+- [x] Support right click and hold for multiple selection
+- [x] Support node free dragging and dragging adjustment
+- [x] Supports multiple node shapes
+- [x] Support exporting to `json`, `png`, `svg`, `pdf`, support importing from `json`, `xmind`
+- [x] Support small map
+- [x] Support small map, support watermark
 
-## 工具库介绍
+## Tool library introduction
 1.`simple-mind-map`
-思维导图工具库，框架无关，`Vue`、`React`等框架或无框架都可以使用。
+Mind mapping tool library, framework-independent, `Vue`, `React` and other frameworks or no frameworks can be used.
 
-2.使用`simple-mind-map`工具库，基于`vue3.2`、`ElementPlus`搭建的在线思维导图。特性：
+2.Using the `simple-mind-map` tool library, an online mind map based on `vue3.2` and `ElementPlus`. characteristic:
 
-- [x] 工具栏，支持插入节点、删除节点；编辑节点图片、图标、超链接、备注、标签、概要
+- [x] Toolbar, supports inserting nodes, deleting nodes; editing node pictures, icons, hyperlinks, notes, labels, and summaries
 
-- [x] 侧边栏，基础样式设置面板、节点样式设置面板、大纲面板、主题选择面板、结构选择面板
+- [x] Sidebar, basic style setting panel, node style setting panel, outline panel, theme selection panel, structure selection panel
 
-- [x] 导入导出功能；数据默认保存在浏览器本地存储，也支持直接创建、打开、编辑电脑本地文件
+- [x] Import and export function; the data is saved in the local storage of the browser by default, and it also supports the direct creation, opening and editing of local files on the computer
 
-- [x] 右键菜单，支持展开、收起、整理布局等操作
+- [x] The right-click menu supports operations such as expanding, collapsing, and arranging the layout
 
-- [x] 底部栏，支持节点数量、字数统计；支持切换编辑和只读模式；支持放大缩小；支持全屏切换；支持小地图
+- [x] The bottom bar supports the number of nodes and word count; supports switching between editing and read-only modes; supports zooming in and out; supports full-screen switching; supports small maps
 
-## 开发
+## to develop
 
-### 本地开发
+### local development
 ```bash
 git clone https://github.com/huangyuanyin/hyy-vue3-mindMap.git
 npm i
 npm run serve
 ```
 
-## 后期计划
-- [ ] 将项目从 vue-cli 迁移至 vite
-- [ ] 将项目由 JS 改至 TS编写
+## late plan
+- [ ] Migrate project from vue-cli to vite
+- [ ] Change the project from JS to TS writing
 
-# 特别说明
+# Special Note
 
-本项目较粗糙，未进行完整测试，功能尚不是很完善，性能也存在一些问题，仅用于学习和参考，请勿用于实际项目。
+This project is relatively rough and has not been fully tested. The function is not perfect yet, and there are some problems in performance. It is only for learning and reference, and please do not use it for actual projects.
 
-本项目基于https://github.com/wanglin2/mind-map 上重构vue3 + elementplus版本。
+This project is based on refactoring the vue3 + elementplus version on https://github.com/wanglin2/mind-map.
 
-项目内置的主题和图标来自于：
+The themes and icons built into the project come from:
 
-[百度脑图](https://naotu.baidu.com/)
+[Baidu brain map](https://naotu.baidu.com/)
 
-[知犀思维导图](https://www.zhixi.com/)
+[Zhixi mind map](https://www.zhixi.com/)
